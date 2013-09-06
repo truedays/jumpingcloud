@@ -215,7 +215,7 @@ class Game < Window
     end
   end
   def button_down(id)
-    if id == KbUp then @cptn.try_to_jump end
+    if id == KbSpace then @cptn.try_to_jump end
     if id == KbEscape then close end
   end
 end
